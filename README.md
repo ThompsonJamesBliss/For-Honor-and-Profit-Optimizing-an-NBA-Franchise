@@ -1,2 +1,2 @@
-# For-Honor-and-Profit-Optimizing-an-NBA-Franchise
+# For Honor and Profit - Optimizing an NBA Franchise
 In this project, our team used optimization functions in Julia to analyze how to put together the best NBA roster based on data from the 2017-2018 NBA Season. The project shows a way to evaluate player worth, a five year plan to turn a losing franchise into a winning franchise and a stadium finacing plan that taking into account team operating costs.  All the models use public data from <a href='http://insider.espn.com/nba/hollinger/statistics'>ESPN</a>, <a href='http://www.spotrac.com/nba/contracts/'>Spotrac</a>, and <a href='http://www.dsg.com/jerseyreport/basketball/'>Dick's Sporting Goods</a>.
