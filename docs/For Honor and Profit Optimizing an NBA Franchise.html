@@ -11786,6 +11786,15 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>To view the code and data associated with this project, click <a href='https://github.com/ThompsonJamesBliss/For-Honor-and-Profit-Optimizing-an-NBA-Franchise'> here</a> to visit the Github Repository.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ol>
 <li><a href='#Preface'>Preface</a></li>
 <li><a href='#Introduction'>Introduction</a>
@@ -11875,7 +11884,7 @@ BK&amp;S’s consultants are uniquely equipped to answer the optimization questi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-julia"><pre><span></span><span class="k">using</span> <span class="n">JuMP</span>
@@ -11885,7 +11894,7 @@ BK&amp;S’s consultants are uniquely equipped to answer the optimization questi
 <span class="k">using</span> <span class="n">Cbc</span>
 <span class="k">using</span> <span class="n">DataFrames</span>
 
-<span class="n">raw</span> <span class="o">=</span> <span class="n">readcsv</span><span class="p">(</span><span class="s">&quot;NBA.csv&quot;</span><span class="p">);</span>
+<span class="n">raw</span> <span class="o">=</span> <span class="n">readcsv</span><span class="p">(</span><span class="s">&quot;data/NBA.csv&quot;</span><span class="p">);</span>
 <span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">n</span><span class="p">)</span> <span class="o">=</span> <span class="n">size</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
 
 <span class="n">n_categories</span> <span class="o">=</span> <span class="mi">2</span><span class="o">:</span><span class="n">n</span>     <span class="c"># columns containing categories</span>
